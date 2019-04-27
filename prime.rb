@@ -8,9 +8,9 @@ def prime?(int)
       if (int % number).zero?                         #between 2 to (num - 1)
         return false                                  #return false on the first instance
     end
-
+    return true  
     end
-    return true                                              # after checking all numbers and not receiving false
+    #return true                                              # after checking all numbers and not receiving false
 end
 
 
