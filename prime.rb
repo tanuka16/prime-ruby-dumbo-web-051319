@@ -5,7 +5,7 @@ def prime?(int)
     return false
   elsif int == 2
     return true
-  #else
-    #(2..int/2).none? { |i| int % i == 0}
+  else
+    (2..int/2).none? { |i| int % i == 0}
   end
 end
