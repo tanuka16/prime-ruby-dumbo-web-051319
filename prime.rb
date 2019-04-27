@@ -1,6 +1,8 @@
 # Add  code here!
 
-def prime?(int)
+
+
+=begindef prime?(int)
   # check if num is less than 2.
     false if int < 2
 
@@ -8,7 +10,7 @@ def prime?(int)
       if (int % number).zero?                         #between 2 to (num - 1)
         return false                                  #return false on the first instance
     end
-    return true  
+    return true
     end
     #return true                                              # after checking all numbers and not receiving false
 end
