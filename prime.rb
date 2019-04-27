@@ -1,4 +1,5 @@
 # Add  code here!
-def prime?(integer)
-
+require 'prime'
+def prime?(int)
+  if int > 1
 end
