@@ -6,6 +6,6 @@ def prime?(int)
   elsif int == 2
     return true
   else
-    (2..n/2).none? { |i| int % i == 0}
+    (2..int/2).none? { |i| int % i == 0}
   end
 end
