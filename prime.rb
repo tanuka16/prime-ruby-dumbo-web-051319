@@ -1,8 +1,8 @@
 # Add  code here!
 require 'prime'
 def prime?(int)
-  if int <= 1 && int % x ==0
-    return true
+  if int <= 1
+    return false
   else
     return false
 
