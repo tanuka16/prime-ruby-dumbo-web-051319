@@ -1,12 +1,10 @@
 # Add  code here!
 
-
-
-=begindef prime?(int)
+def prime?(int)
   # check if num is less than 2.
     false if int < 2
 
-    (2..int).each do |number|                         #check if num is divisible by any number
+    (2..int/2).each do |number|                         #check if num is divisible by any number
       if (int % number).zero?                         #between 2 to (num - 1)
         return false                                  #return false on the first instance
     end
