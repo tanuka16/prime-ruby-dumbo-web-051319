@@ -1,6 +1,8 @@
 # Add  code here!
 require 'prime'
 def prime?(int)
-  prime.each(int) {|p| puts prime}
+  if int > 1 && int % int ==0
+    return true
+
 
 end
