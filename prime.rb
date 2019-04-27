@@ -3,11 +3,13 @@
 def prime?(int)
   # check if num is less than 2.
     false if int < 2
-    (2..int).each do |num|
 
+    (2..int).each do |number|                         #check if num is divisible by any number
+      if (int % number).zero?                         #between 2 to (num - 1)
+        return false                                  #return false on the first instance
     end
-
     end
+    true                                              # after checking all numbers and not receiving false
 end
 
 
